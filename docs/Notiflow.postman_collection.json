@@ -1,0 +1,88 @@
+{
+	"id": "d55ccfa1-2778-8595-bcc9-7cee65edbd00",
+	"name": "Notiflow",
+	"description": "",
+	"order": [
+		"82de9601-a923-3c31-611e-c2ae1dd6aedd",
+		"e18b84a2-bcd3-ff04-8026-1641a770f111"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1614509166412,
+	"owner": "2099417",
+	"public": false,
+	"requests": [
+		{
+			"id": "82de9601-a923-3c31-611e-c2ae1dd6aedd",
+			"headers": "Content-Type: application/json\nApplicationToken: e6723973-c033-4325-bd5c-844666a88349\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ApplicationToken",
+					"value": "e6723973-c033-4325-bd5c-844666a88349",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:21140/sendNotifyDetail",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615040672023,
+			"name": "sendNotifyDetail",
+			"description": "",
+			"collectionId": "d55ccfa1-2778-8595-bcc9-7cee65edbd00",
+			"responses": [],
+			"rawModeData": "{\n  \"title\": \"test\",\n  \"body\": \"test\",\n  \"customData\": {\n    \"actionType\":4\n   },\n   \"deviceIds\": [\n    \"cpD5Fh8vZkatg0eg7hp0bm:APA91bHEpcPOhCcwDpRkzLorYlqF1hWYu-h3qGQFrQ7fAb5vyqHdVlP_2oCn_VhRhnXteUd07hfana45FautQpKAhFAFmrqA-bG4HTwz4BBrvLkxOIuhCqb4WuMVaCa4T4r4A_06nORZ\"\n  ]\n}"
+		},
+		{
+			"id": "e18b84a2-bcd3-ff04-8026-1641a770f111",
+			"headers": "Content-Type: application/json\nApplicationToken: e6723973-c033-4325-bd5c-844666a88349\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ApplicationToken",
+					"value": "e6723973-c033-4325-bd5c-844666a88349",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://localhost:21140/sendNotify",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1615040678680,
+			"name": "sendNotify",
+			"description": "",
+			"collectionId": "d55ccfa1-2778-8595-bcc9-7cee65edbd00",
+			"responses": [],
+			"rawModeData": "{\n  \"title\": \"2\",\n  \"body\": \"test2\",\n   \"deviceIds\": [\n    \"cpD5Fh8vZkatg0eg7hp0bm:APA91bHEpcPOhCcwDpRkzLorYlqF1hWYu-h3qGQFrQ7fAb5vyqHdVlP_2oCn_VhRhnXteUd07hfana45FautQpKAhFAFmrqA-bG4HTwz4BBrvLkxOIuhCqb4WuMVaCa4T4r4A_06nORZ\"\n  ]\n}"
+		}
+	]
+}

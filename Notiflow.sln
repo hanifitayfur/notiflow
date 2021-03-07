@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6F698932-0C10-49EC-BBC0-AADBDF7901DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notiflow.Api", "src\Notiflow.Api\Notiflow.Api.csproj", "{B81B85F7-73AC-4825-A6F3-3CACEF3F9EFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{F7415E86-F756-4D84-AA9B-CBC3D1EE104B}"
+ProjectSection(SolutionItems) = preProject
+	docs\Notiflow.postman_collection.json = docs\Notiflow.postman_collection.json
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{4762DD2A-F607-4F18-A388-EFA39987C191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.App", "sample\Sample.App\Sample.App.csproj", "{D5963BFB-845D-4653-A085-42E343B92DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notiflow.Messaging.Shared", "src\Notiflow.Messaging.Shared\Notiflow.Messaging.Shared.csproj", "{6BC8C843-D776-4248-ACBE-284478696159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B81B85F7-73AC-4825-A6F3-3CACEF3F9EFA} = {6F698932-0C10-49EC-BBC0-AADBDF7901DC}
+		{D5963BFB-845D-4653-A085-42E343B92DD7} = {4762DD2A-F607-4F18-A388-EFA39987C191}
+		{6BC8C843-D776-4248-ACBE-284478696159} = {6F698932-0C10-49EC-BBC0-AADBDF7901DC}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B81B85F7-73AC-4825-A6F3-3CACEF3F9EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B81B85F7-73AC-4825-A6F3-3CACEF3F9EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B81B85F7-73AC-4825-A6F3-3CACEF3F9EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B81B85F7-73AC-4825-A6F3-3CACEF3F9EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5963BFB-845D-4653-A085-42E343B92DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5963BFB-845D-4653-A085-42E343B92DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5963BFB-845D-4653-A085-42E343B92DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5963BFB-845D-4653-A085-42E343B92DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BC8C843-D776-4248-ACBE-284478696159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC8C843-D776-4248-ACBE-284478696159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC8C843-D776-4248-ACBE-284478696159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC8C843-D776-4248-ACBE-284478696159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

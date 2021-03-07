@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+        <PackageReference Include="MassTransit" Version="6.2.5" />
+        <PackageReference Include="MassTransit.AspNetCore" Version="6.2.5" />
+        <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\src\Notiflow.Messaging.Shared\Notiflow.Messaging.Shared.csproj" />
+    </ItemGroup>
+
+</Project>
